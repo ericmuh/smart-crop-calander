@@ -138,9 +138,11 @@ function Dashboard() {
 
 
 
-{/* chart goes here */}
+{/* line chart goes here */}
 
 <Rainfall/>
+
+
               </Card.Body>
               <Card.Footer>
                 <div className="legend">

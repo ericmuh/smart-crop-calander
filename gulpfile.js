@@ -2,20 +2,20 @@ const gulp = require("gulp");
 const gap = require("gulp-append-prepend");
 
 gulp.task("licenses", async function () {
-  // this is to add Creative Tim licenses in the production mode for the minified js
+  // this is to add Smart Crop Calender licenses in the production mode for the minified js
   gulp
     .src("build/static/js/*chunk.js", { base: "./" })
     .pipe(
       gap.prependText(`/*!
 
 =========================================================
-* Light Bootstrap Dashboard React - v2.0.0
+* Smart Crop Calender - v2.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.smart-crop-calender.netlify.app/
+* Copyright 2020 Smart Crop Calender (https://www.smart-crop-calender.netlify.app/)
 
-* Coded by Creative Tim
+* Coded by Smart Crop Calender
 
 =========================================================
 
@@ -25,20 +25,20 @@ gulp.task("licenses", async function () {
     )
     .pipe(gulp.dest("./", { overwrite: true }));
 
-  // this is to add Creative Tim licenses in the production mode for the minified html
+  // this is to add Smart Crop Calender licenses in the production mode for the minified html
   gulp
     .src("build/index.html", { base: "./" })
     .pipe(
       gap.prependText(`<!--
 
 =========================================================
-* Light Bootstrap Dashboard React - v2.0.0
+* Smart Crop Calender - v2.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.smart-crop-calender.netlify.app/
+* Copyright 2020 Smart Crop Calender (https://www.smart-crop-calender.netlify.app/)
 
-* Coded by Creative Tim
+* Coded by Smart Crop Calender
 
 =========================================================
 
@@ -48,20 +48,20 @@ gulp.task("licenses", async function () {
     )
     .pipe(gulp.dest("./", { overwrite: true }));
 
-  // this is to add Creative Tim licenses in the production mode for the minified css
+  // this is to add Smart Crop Calender licenses in the production mode for the minified css
   gulp
     .src("build/static/css/*chunk.css", { base: "./" })
     .pipe(
       gap.prependText(`/*!
 
 =========================================================
-* Light Bootstrap Dashboard React - v2.0.0
+* Smart Crop Calender - v2.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.smart-crop-calender.netlify.app/
+* Copyright 2020 Smart Crop Calender (https://www.smart-crop-calender.netlify.app/)
 
-* Coded by Creative Tim
+* Coded by Smart Crop Calender
 
 =========================================================
 

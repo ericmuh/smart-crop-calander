@@ -18,12 +18,17 @@ import { getData } from "utils/requests";
 
 const Rainfall = () => {
   const [data, setData] = React.useState();
+const [series,setSeries] = React.useState([])
 
   React.useEffect(() => {
     (async () => {
       let rainfall = await getData("monthly_precipitation");
       console.log("data", rainfall);
-
+//       if (rainfall) {
+//         rainfall.map ((rain)=>{
+//       s
+// });
+      // }
       setData(rainfall);
     })();
   }, []);

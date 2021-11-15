@@ -1,14 +1,14 @@
 /*!
 
 =========================================================
-* Light Bootstrap Dashboard React - v2.0.0
+* Smart Crop Calender - v2.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.smart-crop-calender.netlify.app//product/light-bootstrap-dashboard-react
+* Copyright 2020 Smart Crop Calender (https://www.smart-crop-calender.netlify.app/)
 * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Smart Crop Calender
 
 =========================================================
 
@@ -48,7 +48,7 @@ class Footer extends Component {
             </ul>
             <p className="copyright text-center">
               © {new Date().getFullYear()}{" "}
-              <a href="http://www.creative-tim.com">Creative Tim</a>, made with
+              <a href="http://www.smart-crop-calender.netlify.app/">Smart Crop Calender</a>, made with
               love for a better web
             </p>
           </nav>
