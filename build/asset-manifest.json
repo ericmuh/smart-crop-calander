@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.905e2b78.chunk.css",
+    "main.js": "/static/js/main.226b1eed.chunk.js",
+    "main.js.map": "/static/js/main.226b1eed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6559b168.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6559b168.js.map",
+    "static/css/2.17df6bf0.chunk.css": "/static/css/2.17df6bf0.chunk.css",
+    "static/js/2.0c98f10c.chunk.js": "/static/js/2.0c98f10c.chunk.js",
+    "static/js/2.0c98f10c.chunk.js.map": "/static/js/2.0c98f10c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.17df6bf0.chunk.css.map": "/static/css/2.17df6bf0.chunk.css.map",
+    "static/css/main.905e2b78.chunk.css.map": "/static/css/main.905e2b78.chunk.css.map",
+    "static/js/2.0c98f10c.chunk.js.LICENSE.txt": "/static/js/2.0c98f10c.chunk.js.LICENSE.txt",
+    "static/js/main.226b1eed.chunk.js.LICENSE.txt": "/static/js/main.226b1eed.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/logo-smart-calender.png": "/static/media/logo-smart-calender.1e55d2a9.png",
+    "static/media/light-bootstrap-dashboard-react.scss?v=2.0.0": "/static/media/nucleo-icons.e8827b8a.svg",
+    "static/media/sidebar-1.42d3a5c0.jpg": "/static/media/sidebar-1.42d3a5c0.jpg",
+    "static/media/sidebar-2.42d3a5c0.jpg": "/static/media/sidebar-2.42d3a5c0.jpg",
+    "static/media/sidebar-3.42d3a5c0.jpg": "/static/media/sidebar-3.42d3a5c0.jpg",
+    "static/media/sidebar-4.42d3a5c0.jpg": "/static/media/sidebar-4.42d3a5c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6559b168.js",
+    "static/css/2.17df6bf0.chunk.css",
+    "static/js/2.0c98f10c.chunk.js",
+    "static/css/main.905e2b78.chunk.css",
+    "static/js/main.226b1eed.chunk.js"
+  ]
+}
