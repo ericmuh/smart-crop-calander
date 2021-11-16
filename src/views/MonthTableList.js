@@ -1,4 +1,4 @@
-import { monthly_data } from "monthlypec";
+import { monthly_data } from "data/monthlypec";
 import React from "react";
 
 // react-bootstrap components

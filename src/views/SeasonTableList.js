@@ -1,4 +1,4 @@
-import { Seasonal } from "seasonal";
+import { Seasonal } from "data/seasonal";
 import React from "react";
 
 // react-bootstrap components

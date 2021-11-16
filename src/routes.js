@@ -3,7 +3,7 @@ import Sunshine from "views/Sunshine.js";
 import MonthTableList from "views/MonthTableList.js";
 import SeasonTableList from "views/SeasonTableList.js";
 import Icons from "views/Icons.js";
-import Notifications from "views/Notifications.js";
+import Crops from "views/Crops.js";
 
 const dashboardRoutes = [
   {
@@ -11,6 +11,13 @@ const dashboardRoutes = [
     name: "Overview",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
+    layout: "/admin",
+  },
+{
+    path: "/notifications",
+    name: "Crops",
+    icon: "nc-icon nc-bell-55",
+    component: Crops,
     layout: "/admin",
   },
   {
