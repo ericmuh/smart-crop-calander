@@ -6,7 +6,6 @@
     "axios": "^0.24.0",
     "bootstrap": "4.6.0",
     "chartist": "0.10.1",
-    "node-sass": "4.14.1",
     "react": "17.0.1",
     "react-bootstrap": "1.4.3",
     "react-chartist": "0.14.3",
@@ -27,9 +26,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css",
-    "minify:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.min.css --output-style compressed",
-    "map:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css --source-map true",
+    "compile:scss": "node-sass src/assets/scss/smart-crop-calendar.scss src/assets/css/smart-crop-calendar.css",
+    "minify:scss": "node-sass src/assets/scss/smart-crop-calendar.scss src/assets/css/smart-crop-calendar.min.css --output-style compressed",
+    "map:scss": "node-sass src/assets/scss/smart-crop-calendar.scss src/assets/css/smart-crop-calendar.css --source-map true",
     "build:scss": "npm run compile:scss && npm run minify:scss && npm run map:scss"
   },
   "browserslist": {
