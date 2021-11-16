@@ -1,17 +1,30 @@
-
 import Dashboard from "views/Dashboard.js";
 import Sunshine from "views/Sunshine.js";
-import TableList from "views/TableList.js";
+import MonthTableList from "views/MonthTableList.js";
+import SeasonTableList from "views/SeasonTableList.js";
 import Icons from "views/Icons.js";
 import Notifications from "views/Notifications.js";
 
 const dashboardRoutes = [
-  
   {
     path: "/dashboard",
-    name: "Rainfall Precipitation",
+    name: "Overview",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/season",
+    name: "Seasonal Precipitation",
+    icon: "nc-icon nc-air-baloon",
+    component: SeasonTableList,
+    layout: "/admin",
+  },
+  {
+    path: "/monthly",
+    name: "Monthly Precipation",
+    icon: "nc-icon nc-air-baloon",
+    component: MonthTableList,
     layout: "/admin",
   },
   {
@@ -21,14 +34,7 @@ const dashboardRoutes = [
     component: Sunshine,
     layout: "/admin",
   },
-  {
-    path: "/table",
-    name: "Plants",
-    icon: "nc-icon nc-notes",
-    component: TableList,
-    layout: "/admin",
-  },
- 
+
   {
     path: "/icons",
     name: "Icons",
@@ -36,7 +42,7 @@ const dashboardRoutes = [
     component: Icons,
     layout: "/admin",
   },
- 
+
   {
     path: "/notifications",
     name: "Notifications",
