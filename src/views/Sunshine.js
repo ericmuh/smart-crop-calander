@@ -20,7 +20,7 @@ function User() {
         <Row>
           <Col md="8">
             <Card>
-           
+           Coming soon
             </Card>
           </Col>
         </Row>
